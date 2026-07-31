@@ -1,5 +1,6 @@
 {
-    "values":[
-      "game:load"
-    ]
-  }
+  "values": [
+    "game:load",
+    "game:blah"
+  ]
+}
