@@ -1,2 +1,2 @@
 say load
-advancement grant @a all
+advancement grant @a everything
