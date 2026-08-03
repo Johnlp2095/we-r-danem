@@ -11,4 +11,4 @@ scoreboard players add test Timer 1
                                         execute if score test Minutes2 matches 10 run scoreboard players set test Minutes2 0
                                             scoreboard players add test Minutes1 1
 
-execute if score timeLoop timeLoop matches 1 run function game:BBTimeLoop
+execute if score timeLoop timeLoop matches 1 run function game:timer/bbtimeloop
