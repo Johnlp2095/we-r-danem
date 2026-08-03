@@ -2,6 +2,6 @@
   "values": [
     "game:load",
     "game:blah",
-    "gaym:blue"
+    "game:gaym/function/blue"
   ]
 }
