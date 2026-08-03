@@ -2,6 +2,6 @@
   "values": [
     "game:load",
     "game:blah",
-    "game:gaym/blue"
+    "game:gaym/subsubfunc/blue"
   ]
 }
