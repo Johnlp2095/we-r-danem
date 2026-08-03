@@ -1,7 +1,5 @@
 {
   "values": [
-    "game:load",
-    "game:blah",
-    "game:gaym/subsubfunc/blue"
+    "game:load"
   ]
 }

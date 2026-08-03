@@ -1,1 +1,2 @@
-say load 
+say load
+advancement grant @a all
