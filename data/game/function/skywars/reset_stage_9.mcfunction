@@ -1,6 +1,13 @@
-execute as FoxHonk run say stage 9 final clone batch
-clone -746 4 1559 -570 40 1563 -548 -16 346
-clone -746 4 1563 -570 40 1567 -548 -16 350
-clone -746 4 1567 -570 40 1571 -548 -16 354
-clone -746 4 1571 -570 40 1575 -548 -16 358
-execute as FoxHonk run say reset complete
+execute as FoxHonk run say stage 9 clone row
+clone -746 2 1527 -731 40 1542 -548 -18 314
+clone -730 2 1527 -715 40 1542 -532 -18 314
+clone -714 2 1527 -699 40 1542 -516 -18 314
+clone -698 2 1527 -683 40 1542 -500 -18 314
+clone -682 2 1527 -667 40 1542 -484 -18 314
+clone -666 2 1527 -651 40 1542 -468 -18 314
+clone -650 2 1527 -635 40 1542 -452 -18 314
+clone -634 2 1527 -619 40 1542 -436 -18 314
+clone -618 2 1527 -603 40 1542 -420 -18 314
+clone -602 2 1527 -587 40 1542 -404 -18 314
+clone -586 2 1527 -570 40 1542 -388 -18 314
+schedule function game:skywars/reset_stage_10 20t replace
