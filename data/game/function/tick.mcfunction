@@ -1,0 +1,1 @@
+execute if score timeLoop timeLoop matches 1 run function game:timer/bbtimeloop
