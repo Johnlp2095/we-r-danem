@@ -1,14 +1,14 @@
 # run when the game is starting, to teleport players to their islands and give them their starting items
 # needs the system for giving infinite blocks still
 
-tp @a[team=red] -540 -5.5 313 -135 0
-tp @a[team=orange] -499.5 -5.5 354.5 -155 0
-tp @a[team=yellow] -421.5 -5.5 354.5 155 0
-tp @a[team=lime] -380.5 -5.5 313.5 135 0
-tp @a[team=aqua] -380.5 -5.5 235.5 45 0
-tp @a[team=blue] -421.5 -5.5 194.5 45 0
-tp @a[team=purple] -499.5 -5.5 194.5 -45 0
-tp @a[team=pink] -540.5 -5.5 235.5 -45 0
+tp @a[team=Red] -540.5 -5.5 313 -135 0
+tp @a[team=Orange] -499.5 -5.5 354.5 -155 0
+tp @a[team=Yellow] -421.5 -5.5 354.5 155 0
+tp @a[team=Lime] -380.5 -5.5 313.5 135 0
+tp @a[team=Aqua] -380.5 -5.5 235.5 45 0
+tp @a[team=Blue] -421.5 -5.5 194.5 45 0
+tp @a[team=Purple] -499.5 -5.5 194.5 -45 0
+tp @a[team=Pink] -540.5 -5.5 235.5 -45 0
 gamemode @a adventure
 effect clear @a minecraft:saturation
 gamerule fallDamage true
