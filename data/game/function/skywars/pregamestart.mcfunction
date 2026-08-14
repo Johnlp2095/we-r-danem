@@ -10,7 +10,7 @@ tp @a[team=Blue] -421.5 -5.5 194.5 45 0
 tp @a[team=Purple] -499.5 -5.5 194.5 -45 0
 tp @a[team=Pink] -540.5 -5.5 235.5 -45 0
 gamemode @a adventure
-effect remove @a saturation
+effect remove @a minecraft:saturation
 gamerule fallDamage true
 
 item replace @a hotbar.0 with minecraft:stone_sword{Unbreakable:1b}
