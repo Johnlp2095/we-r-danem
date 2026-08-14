@@ -11,7 +11,7 @@ tp @a[team=Purple] -499.5 -5.5 194.5 -45 0
 tp @a[team=Pink] -540.5 -5.5 235.5 -45 0
 gamemode @a adventure
 effect clear @a minecraft:saturation
-gamerule fallDamage true
+gamerule fall_damage true
 
 item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
