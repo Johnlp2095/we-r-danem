@@ -9,7 +9,7 @@ tp @a[team=Aqua] -380.5 -5.5 235.5 45 0
 tp @a[team=Blue] -421.5 -5.5 194.5 45 0
 tp @a[team=Purple] -499.5 -5.5 194.5 -45 0
 tp @a[team=Pink] -540.5 -5.5 235.5 -45 0
-gamemode @a adventure
+gamemode adventure @a
 effect clear @a minecraft:saturation
 gamerule fall_damage true
 
