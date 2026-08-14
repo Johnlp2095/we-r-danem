@@ -13,25 +13,25 @@ gamemode @a adventure
 effect remove @a minecraft:saturation
 gamerule fallDamage true
 
-item replace @a hotbar.0 with minecraft:stone_sword{Unbreakable:1b}
-item replace @a hotbar.1 with minecraft:diamond_pickaxe{Unbreakable:1b}
-item replace @a hotbar.2 with minecraft:bow{Unbreakable:1b}
-item replace @a hotbar.3 with minecraft:cooked_beef 8
-item replace @a armor.chest with minecraft:iron_chestplate{Unbreakable:1b}
+item replace entity @a hotbar.0 with minecraft:stone_sword{Unbreakable:1b}
+item replace entity @a hotbar.1 with minecraft:diamond_pickaxe{Unbreakable:1b}
+item replace entity @a hotbar.2 with minecraft:bow{Unbreakable:1b}
+item replace entity @a hotbar.3 with minecraft:cooked_beef 8
+item replace entity @a armor.chest with minecraft:iron_chestplate{Unbreakable:1b}
 
-item replace @a[team=red] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16711680}}
-item replace @a[team=orange] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16753920}}
-item replace @a[team=yellow] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16776960}}
-item replace @a[team=lime] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:65280}}
-item replace @a[team=aqua] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:65535}}
-item replace @a[team=blue] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:255}}
-item replace @a[team=purple] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:8388736}}
-item replace @a[team=pink] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16711935}}
-item replace @a[team=red] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16711680}}
-item replace @a[team=orange] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16753920}}
-item replace @a[team=yellow] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16776960}}
-item replace @a[team=lime] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:65280}}
-item replace @a[team=aqua] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:65535}}
-item replace @a[team=blue] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:255}}
-item replace @a[team=purple] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:8388736}}
-item replace @a[team=pink] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16711935}}
+item replace entity @a[team=red] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16711680}}
+item replace entity @a[team=orange] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16753920}}
+item replace entity @a[team=yellow] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16776960}}
+item replace entity @a[team=lime] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:65280}}
+item replace entity @a[team=aqua] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:65535}}
+item replace entity @a[team=blue] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:255}}
+item replace entity @a[team=purple] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:8388736}}
+item replace entity @a[team=pink] armor.legs with minecraft:leather_leggings{Unbreakable:1b,display:{color:16711935}}
+item replace entity @a[team=red] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16711680}}
+item replace entity @a[team=orange] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16753920}}
+item replace entity @a[team=yellow] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16776960}}
+item replace entity @a[team=lime] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:65280}}
+item replace entity @a[team=aqua] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:65535}}
+item replace entity @a[team=blue] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:255}}
+item replace entity @a[team=purple] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:8388736}}
+item replace entity @a[team=pink] armor.feet with minecraft:leather_boots{Unbreakable:1b,display:{color:16711935}}
