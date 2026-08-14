@@ -1,7 +1,7 @@
 # run when the game is starting, to teleport players to their islands and give them their starting items
 # needs the system for giving infinite blocks still
 
-tp @a[team=red] -540 -5.5 313 -135 0 
+tp @a[team=red] -540 -5.5 313 -135 0
 tp @a[team=orange] -499.5 -5.5 354.5 -155 0
 tp @a[team=yellow] -421.5 -5.5 354.5 155 0
 tp @a[team=lime] -380.5 -5.5 313.5 135 0
