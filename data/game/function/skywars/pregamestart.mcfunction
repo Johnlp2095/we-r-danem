@@ -1,4 +1,4 @@
-# run when the game is starting, to teleport players to their islands and give them their starting items
+# run when the game is being prepped for starting, to teleport players to their islands and give them their starting items
 # needs the system for giving infinite blocks still
 
 tp @a[team=Red] -540.5 -4.5 313 -135 0
@@ -12,6 +12,8 @@ tp @a[team=Pink] -540.5 -4.5 235.5 -45 0
 gamemode adventure @a
 effect clear @a minecraft:saturation
 gamerule fall_damage true
+effect give @a minecraft:regeneration 5 2 true
+tag @a add SWPlaying
 
 item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
@@ -20,6 +22,14 @@ item replace entity @a hotbar.3 with minecraft:cooked_beef 8
 item replace entity @a armor.chest with minecraft:iron_chestplate[unbreakable={}] 1
 item replace entity @a hotbar.8 with minecraft:arrow 4
 
+item replace entity @a[team=Red] hotbar.7 with minecraft:red_concrete 64
+item replace entity @a[team=Orange] hotbar.7 with minecraft:orange_concrete 64
+item replace entity @a[team=Yellow] hotbar.7 with minecraft:yellow_concrete 64
+item replace entity @a[Lime] hotbar.7 with minecraft:lime_concrete 64
+item replace entity @a[Aqua] hotbar.7 with minecraft:light_blue_concrete 64
+item replace entity @a[team=Blue] hotbar.7 with minecraft:blue_concrete 64
+item replace entity @a[team=Purple] hotbar.7 with minecraft:purple_concrete 64
+item replace entity @a[team=Pink] hotbar.7 with minecraft:pink_concrete 64
 item replace entity @a[team=Red] armor.legs with minecraft:leather_leggings[dyed_color=16711680,unbreakable={}] 1
 item replace entity @a[team=Orange] armor.legs with minecraft:leather_leggings[dyed_color=16753920,unbreakable={}] 1
 item replace entity @a[team=Yellow] armor.legs with minecraft:leather_leggings[dyed_color=16776960,unbreakable={}] 1
