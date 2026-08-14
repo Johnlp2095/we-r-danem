@@ -13,11 +13,12 @@ gamemode @a adventure
 effect remove @a minecraft:saturation
 gamerule fallDamage true
 
-item replace entity @a hotbar.0 with minecraft:stone_sword{Unbreakable:1b}
-item replace entity @a hotbar.1 with minecraft:diamond_pickaxe{Unbreakable:1b}
-item replace entity @a hotbar.2 with minecraft:bow{Unbreakable:1b}
-item replace entity @a hotbar.3 with minecraft:cooked_beef 8
-item replace entity @a armor.chest with minecraft:iron_chestplate{Unbreakable:1b}
+item replace entity @a hotbar.0 with stone_sword[unbreakable={}] 1
+item replace entity @a hotbar.1 with diamond_pickaxe[unbreakable={}] 1
+item replace entity @a hotbar.2 with bow[unbreakable={}] 1
+item replace entity @a hotbar.3 with cooked_beef 8
+item replace entity @a armor.chest with iron_chestplate[unbreakable={}] 1
+item replace entity @a hotbar.8 with arrow 4
 
 item replace entity @a[team=Red] armor.legs with leather_leggings[dyed_color=16711680,unbreakable={}] 1
 item replace entity @a[team=Orange] armor.legs with leather_leggings[dyed_color=16753920,unbreakable={}] 1
