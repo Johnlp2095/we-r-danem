@@ -1,4 +1,4 @@
-execute as FoxHonk run say stage 11 clone row
+tellraw @a {"color":"dark_red","text":"[!] stage 11 reset"}
 clone -746 2 1559 -731 40 1575 -548 -18 346
 clone -730 2 1559 -715 40 1575 -532 -18 346
 clone -714 2 1559 -699 40 1575 -516 -18 346
@@ -10,4 +10,4 @@ clone -634 2 1559 -619 40 1575 -436 -18 346
 clone -618 2 1559 -603 40 1575 -420 -18 346
 clone -602 2 1559 -587 40 1575 -404 -18 346
 clone -586 2 1559 -570 40 1575 -388 -18 346
-execute as FoxHonk run say reset complete
+tellraw @a {"bold":true,"color":"green","text":"Map Loaded!"}

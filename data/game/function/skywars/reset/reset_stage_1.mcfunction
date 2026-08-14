@@ -1,4 +1,4 @@
-execute as FoxHonk run say stage 1 clone row
+tellraw @a {"color":"dark_red","text":"[!] stage 1 reset"}
 clone -746 2 1399 -731 40 1414 -548 -18 186
 clone -730 2 1399 -715 40 1414 -532 -18 186
 clone -714 2 1399 -699 40 1414 -516 -18 186
@@ -10,4 +10,4 @@ clone -634 2 1399 -619 40 1414 -436 -18 186
 clone -618 2 1399 -603 40 1414 -420 -18 186
 clone -602 2 1399 -587 40 1414 -404 -18 186
 clone -586 2 1399 -570 40 1414 -388 -18 186
-schedule function game:skywars/reset_stage_2 20t replace
+schedule function game:skywars/reset/reset_stage_2 20t replace
