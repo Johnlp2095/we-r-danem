@@ -1,0 +1,1 @@
+schedule function game:start/321go/aready 20t

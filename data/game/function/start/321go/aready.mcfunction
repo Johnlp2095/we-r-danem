@@ -1,2 +1,3 @@
 title @a title [{"text":"Ready...?","color":"dark_red"}]
-schedule run title @a title [{"text":"Ready...?","color":"dark_red"}] 20t
+title @a title [{"text":"Ready...?","color":"dark_red"}]
+schedule function game:start/321go/bthree 20t
