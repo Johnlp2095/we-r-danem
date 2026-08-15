@@ -13,7 +13,7 @@ gamemode adventure @a
 effect clear @a minecraft:saturation
 gamerule fall_damage true
 effect give @a minecraft:regeneration 5 2 true
-tag @a add "SWPlaying"
+tag @a add SWPlaying
 
 item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
@@ -25,8 +25,8 @@ item replace entity @a hotbar.8 with minecraft:arrow 4
 item replace entity @a[team=Red] hotbar.7 with minecraft:red_concrete 64
 item replace entity @a[team=Orange] hotbar.7 with minecraft:orange_concrete 64
 item replace entity @a[team=Yellow] hotbar.7 with minecraft:yellow_concrete 64
-item replace entity @a[Lime] hotbar.7 with minecraft:lime_concrete 64
-item replace entity @a[Aqua] hotbar.7 with minecraft:light_blue_concrete 64
+item replace entity @a[team=Lime] hotbar.7 with minecraft:lime_concrete 64
+item replace entity @a[team=Aqua] hotbar.7 with minecraft:light_blue_concrete 64
 item replace entity @a[team=Blue] hotbar.7 with minecraft:blue_concrete 64
 item replace entity @a[team=Purple] hotbar.7 with minecraft:purple_concrete 64
 item replace entity @a[team=Pink] hotbar.7 with minecraft:pink_concrete 64
