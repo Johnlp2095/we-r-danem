@@ -10,4 +10,4 @@ clone -634 2 1559 -619 40 1575 -436 -18 346
 clone -618 2 1559 -603 40 1575 -420 -18 346
 clone -602 2 1559 -587 40 1575 -404 -18 346
 clone -586 2 1559 -570 40 1575 -388 -18 346
-tellraw @a {"bold":true,"color":"green","text":"Map Loaded!"}
+schedule function game:skywars/reset/reset_stage_12 20t replace
