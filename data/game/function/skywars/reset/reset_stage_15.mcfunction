@@ -1,6 +1,8 @@
 #expansion
 #stage 0,, uses stage 1, translated -16
 
+#translated
+
 tellraw @a {"color":"dark_red","text":"[!] stage 12 reset"}
 clone -746 2 1398 -731 40 1398 -548 -18 186
 clone -730 2 1398 -715 40 1398 -532 -18 186
