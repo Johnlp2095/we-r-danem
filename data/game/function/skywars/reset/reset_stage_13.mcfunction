@@ -3,7 +3,7 @@
 
 #untranslated
 
-tellraw @a {"color":"dark_red","text":"[!] stage 11 reset"}
+tellraw @a {"color":"dark_red","text":"[!] stage 13 reset"}
 clone -586 2 1399 -570 40 1414 -388 -18 186
 clone -586 2 1415 -570 40 1430 -388 -18 202
 clone -586 2 1431 -570 40 1446 -388 -18 218
