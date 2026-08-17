@@ -1,2 +1,2 @@
 function game:start/aaabbc
-function game:skywars/glass
+schedule function game:skywars/glass 126t
