@@ -1,2 +1,2 @@
 function game:start/aaabbc
-game:skywars/glass
+function game:skywars/glass
