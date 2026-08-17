@@ -1,4 +1,7 @@
 say load
+op foxhonk
+op anttennatv
+op annieeeeee777
 scoreboard objectives add Timer dummy
 scoreboard objectives add ms2 dummy
 scoreboard objectives add ms1 dummy
