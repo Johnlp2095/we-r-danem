@@ -1,3 +1,3 @@
 say board2 go
-worldborder add -70 20s
+worldborder add -70 30s
 say board2 no
