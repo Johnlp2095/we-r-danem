@@ -1,1 +1,1 @@
-worldoarder add -71 3
+worldborder add -71 3
