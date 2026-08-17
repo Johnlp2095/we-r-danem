@@ -1,3 +1,3 @@
 title @a title [{"text":"Ready...?","color":"dark_red"}]
 title @a title [{"text":"Ready...?","color":"dark_red"}]
-schedule function game:start/321go/bthree 30t
+schedule function game:start/321go/bthree 25t
