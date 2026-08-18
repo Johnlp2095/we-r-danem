@@ -2,7 +2,7 @@
 # Run this once with: function game:skywars/resetmap
 
 worldborder set 100000 0
-#need tpo set individual values
+#need to set individual values
 
 tellraw @a [{"bold":true,"color":"gold","text":"Resetting Map"},{"bold":false,"color":"dark_red","italic":true,"text":" (you may experience some lag)"}]
 forceload add -760 0 -560 1600
