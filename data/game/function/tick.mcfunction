@@ -8,6 +8,3 @@ execute if entity @a[team=Aqua,tag=SWPlaying,scores={aquablockcount=1..}] run sc
 execute if entity @a[team=Blue,tag=SWPlaying,scores={blueblockcount=1..}] run schedule function game:skywars/infiniteblocks 1t replace
 execute if entity @a[team=Purple,tag=SWPlaying,scores={purpleblockcount=1..}] run schedule function game:skywars/infiniteblocks 1t replace
 execute if entity @a[team=Pink,tag=SWPlaying,scores={pinkblockcount=1..}] run schedule function game:skywars/infiniteblocks 1t replace
-
-execute as @e[type=minecraft:snowball] at @e[type=minecraft:snowball] run summon minecraft:marker
-execute as @e[type=minecraft:snowball] at @e[type=minecraft:snowball] run fill ~ ~-0.35 ~ ~ ~0.35 ~ air
