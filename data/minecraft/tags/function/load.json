@@ -1,5 +1,7 @@
 {
+  "replace":false,
   "values": [
-    "game:load"
+    "game:load",
+    "vdv_raycast:load"
   ]
 }
