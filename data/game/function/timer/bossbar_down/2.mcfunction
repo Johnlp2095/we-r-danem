@@ -1,0 +1,3 @@
+scoreboard players set test ms2 5
+execute if score test ms1 matches 0 run function game:timer/bossbar/3
+scoreboard players remove test ms1 1
