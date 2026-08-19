@@ -10,3 +10,4 @@ scoreboard objectives add timeLoop dummy
 function game:timer/bbtimereset
 advancement grant @a everything
 recipe give @a *
+scoreboard objectives add vdvcasttemp dummy
