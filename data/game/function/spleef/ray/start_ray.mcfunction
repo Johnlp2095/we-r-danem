@@ -6,7 +6,7 @@ scoreboard players set #distance vdvcasttemp 0
 
 #Activating the raycast. This function will call itself until it is done.
 
-function vdv_raycast:ray
+function game:spleef/ray/ray
 
 #Raycasting finished, removing tag from the raycaster.
 
