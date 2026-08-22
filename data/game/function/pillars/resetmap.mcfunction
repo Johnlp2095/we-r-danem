@@ -9,5 +9,3 @@ forceload add -760 0 -560 1600
 schedule function game:pillars/reset/one 20t replace
 schedule function game:pillars/reset/two 20t replace
 schedule function game:pillars/reset/three 20t replace
-
-IGNORE THIS FILE FOR NOW
