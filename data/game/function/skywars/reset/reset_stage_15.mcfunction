@@ -16,3 +16,4 @@ clone -618 2 1383 -603 40 1398 -420 -18 170
 clone -602 2 1383 -587 40 1398 -404 -18 170
 clone -586 2 1383 -570 40 1398 -388 -18 170
 tellraw @a {"bold":true,"color":"green","text":"Map Loaded!"}
+
