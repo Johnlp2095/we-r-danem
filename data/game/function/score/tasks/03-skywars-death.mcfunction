@@ -10,3 +10,15 @@ execute as @a[scores={swdeaths=1..}] run scoreboard players set @s swdeaths 0
 
 # ✅ Done when: a player dies in Skywars and all surviving players gain +2.
 # 💡 You'll ALSO want to set the dead player to spectator here (see skywars/list.md) — that's a later task.
+
+# ---
+
+using ondeath.mcfunction
+
+---
+
+
+when player dies...
+scoreboard of death ticks up one
+execute if player score death = 1 run scoreboard add 2 all tag alive and score != 1 
+execute if player score death = 1 scoreboard set death 0
