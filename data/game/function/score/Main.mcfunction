@@ -1,4 +1,6 @@
-#have separate death scoreboards per game
+#have separate scoreboards per game
+
+#Statistics Tracking
 
 # Deaths
 scoreboard objectives add swdeaths deathCount "Deaths"
