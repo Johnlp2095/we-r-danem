@@ -17,4 +17,4 @@ scoreboard players set #game Minutes1 0
 scoreboard players set #game timeLoop 0
 advancement grant @a everything
 recipe give @a *
-scoreboard objectives add vdvcasttemp dummy
+#scoreboard objectives add vdvcasttemp dummy
