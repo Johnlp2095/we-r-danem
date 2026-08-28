@@ -1,0 +1,1 @@
+scoreboard players set #TimerUp TimerUp 1
