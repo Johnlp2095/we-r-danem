@@ -11,9 +11,10 @@ execute if entity @a[tag=BossBar] run bossbar set 100 name [{"bold":true,"score"
 execute if entity @a[scores={SWKill=1..}] run schedule function game:skywars/swkill 1t replace
 execute if entity @a[scores={SWDeath=1..},tag=Alive] run function game:skywars/swdeath
 execute if entity @a[tag=SWPregame] run bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds2"}}]
-execute if entity @a[tag=StartIn] unless score dummy pregamecount matches 0 run function game:timer/pregamecount/tickpass
-execute if entity @a[tag=EndIn] unless score dummy pregamecount matches 0 run function game:timer/gamend/tickpass
-execute if entity @a[tag=ShrinkIn] unless score dummy pregamecount matches 0 run function game:timer/bordershrink/tickpass
+execute if entity @a[tag=StartIn] unless score dummy pregamecount matches 0 run function game:timer/startin
+execute if entity @a[tag=EndIn] unless score dummy pregamecount matches 0 run function game:timer/endin
+execute if entity @a[tag=ShrinkIn] unless score dummy pregamecount matches 0 run function game:timer/shrinkin
+execute if entity @a[tag=ShrinkFor] unless score dummy pregamecount matches 0 run function game:timer/shrinkfor
 
 execute if score #TimerUp TimerUp matches 1 run function game:timer/bossbar_up/1
 execute if score #TimerDown TimerDown matches 1 run function game:timer/bossbar_down/1

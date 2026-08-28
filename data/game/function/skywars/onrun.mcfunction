@@ -1,4 +1,4 @@
-this shit loops while playing
+#this shit loops while playing
 
-use 
-execute if @a[tag=SWPlaying] ...
+#use 
+#execute if @a[tag=SWPlaying] ...

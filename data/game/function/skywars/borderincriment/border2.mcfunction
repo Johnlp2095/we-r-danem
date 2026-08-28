@@ -2,6 +2,4 @@ execute as @a at @s run playsound minecraft:block.note_block.bell player @s ~ ~ 
 title @a actionbar "Border is Shrinking"
 title @a title ""
 title @a subtitle ["",{"text":"> > >","bold":true,"color":"yellow"},{"text":" ","bold":true},{"text":"Border is Shrinking","bold":true,"color":"gold"},{"text":" ","bold":true},{"text":"< < <","bold":true,"color":"yellow"}]
-bossbar set minecraft:pregame color yellow
-scoreboard players set dummy pregamecount 90
 worldborder add -44 45s

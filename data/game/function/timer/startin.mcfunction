@@ -3,8 +3,4 @@ execute if score dummy pregametickcount matches 20 run scoreboard players remove
 execute if score dummy pregametickcount matches 20 run scoreboard players set dummy pregametickcount 0
 execute store result bossbar minecraft:pregame value run scoreboard players get dummy pregamecount
 bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"dummy","objective":"pregamecount"}}]
-
-#bossbar set minecraft:pregame color purple
-execute if score dummy pregamecount matches 60 run bossbar set minecraft:pregame color green
-execute if score dummy pregamecount matches 30 run bossbar set minecraft:pregame color yellow
-execute if score dummy pregamecount matches 15 run bossbar set minecraft:pregame color red
+bossbar set minecraft:pregame color green
