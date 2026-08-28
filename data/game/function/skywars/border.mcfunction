@@ -1,6 +1,6 @@
 worldborder center -461 274
 worldborder set 207 0
-/bossbar set minecraft:pregame players @a
+bossbar set minecraft:pregame players @a
 tag @a remove StartIn
 tag @a remove ShrinkIn
 tag @a remove ShrinkFor
