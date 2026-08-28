@@ -1,0 +1,1 @@
+scoreboard players remove pregamecount pregamecount 1
