@@ -7,5 +7,5 @@ scoreboard players set test Seconds1 0
 scoreboard players set test Minutes2 0
 scoreboard players set test Minutes1 0
 scoreboard players set test timeLoop 0
-advancement grant @a everything
-recipe give @a *
+#advancement grant @a everything
+#recipe give @a *
