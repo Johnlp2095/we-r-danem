@@ -1,1 +1,0 @@
-function game:timer/bossbar_uppies/bbtimeruppies
