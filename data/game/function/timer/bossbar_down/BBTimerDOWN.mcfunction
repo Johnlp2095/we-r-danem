@@ -1,1 +1,1 @@
-function game:timer/bossbar_down/1
+scoreboard players set #TimerDown TimerDown 1
