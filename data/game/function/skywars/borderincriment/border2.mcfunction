@@ -2,4 +2,8 @@ execute as @a at @s run playsound minecraft:block.note_block.bell player @s ~ ~ 
 title @a actionbar "Border is Shrinking"
 title @a title ""
 title @a subtitle ["",{"text":"> > >","bold":true,"color":"yellow"},{"text":" ","bold":true},{"text":"Border is Shrinking","bold":true,"color":"gold"},{"text":" ","bold":true},{"text":"< < <","bold":true,"color":"yellow"}]
+tag @a remove ShrinkIn
+tag @a add ShrinkFor
+scoreboard players set dummy pregamecount 45
+schedule function game:skywars/borderincriment/border2 45s replace
 worldborder add -44 45s
