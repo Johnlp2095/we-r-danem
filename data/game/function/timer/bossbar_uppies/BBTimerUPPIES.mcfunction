@@ -1,1 +1,1 @@
-function game:timer/bossbar_uppies/BBTimerUPPIES
+function game:timer/bossbar_uppies/bbtimeruppies
