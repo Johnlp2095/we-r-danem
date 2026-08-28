@@ -15,6 +15,7 @@ gamerule fall_damage true
 effect give @a minecraft:regeneration 5 2 true
 tag @a add SWPlaying
 tag @a add Alive
+tag @a add SWPregame
 
 item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
