@@ -1,1 +1,1 @@
-scoreboard players set #TimerUp TimerUp 1
+function game:timer/bossbar_uppies/BBTimerUPPIES
