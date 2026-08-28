@@ -1,2 +1,1 @@
-scoreboard players remove pregamecount pregamecount 1
-say done
+scoreboard players remove dummy pregamecount 1
