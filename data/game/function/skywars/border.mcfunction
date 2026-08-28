@@ -6,6 +6,7 @@ tag @a remove ShrinkFor
 tag @a remove EndIn
 tag @a add ShrinkIn
 scoreboard players set dummy pregamecount 30
+bossbar set minecraft:pregame max 30
 schedule function game:skywars/borderincriment/border1 30s replace
 schedule function game:skywars/borderincriment/border2 150s replace
 schedule function game:skywars/borderincriment/border3 240s replace
