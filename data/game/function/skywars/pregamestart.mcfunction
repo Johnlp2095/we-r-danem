@@ -49,5 +49,6 @@ item replace entity @a[team=Purple] armor.feet with minecraft:leather_boots[dyed
 item replace entity @a[team=Pink] armor.feet with minecraft:leather_boots[dyed_color=15961002,unbreakable={}] 1
 
 scoreboard players set pregame Seconds1 3
+scoreboard players set pregame Seconds2 0
 run function game:timer/bbtimerdown
-bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"objective":"Seconds2"}}]
+bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds2"}}]
