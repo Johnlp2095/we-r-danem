@@ -49,6 +49,7 @@ item replace entity @a[team=Blue] armor.feet with minecraft:leather_boots[dyed_c
 item replace entity @a[team=Purple] armor.feet with minecraft:leather_boots[dyed_color=8388736,unbreakable={}] 1
 item replace entity @a[team=Pink] armor.feet with minecraft:leather_boots[dyed_color=15961002,unbreakable={}] 1
 
+bossbar set 100 players
 scoreboard players set pregame Seconds1 3
 scoreboard players set pregame Seconds2 0
 function game:timer/bossbar_down/bbtimerdown
