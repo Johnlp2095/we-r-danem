@@ -11,3 +11,4 @@ execute if entity @a[tag=BossBar] run bossbar set 100 name [{"bold":true,"score"
 execute if entity @a[scores={SWKill=1..}] run schedule function game:skywars/swkill 1t replace
 execute if entity @a[scores={SWDeath=1..},tag=Alive] run function game:skywars/swdeath
 execute if score #TimerUp TimerUp matches 1 run function game:timer/bossbar_up/1
+execute if score #TimerDown TimerDown matches 1 run function game:timer/bossbar_down/1
