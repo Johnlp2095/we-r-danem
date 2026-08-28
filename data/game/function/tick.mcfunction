@@ -9,5 +9,6 @@ execute if entity @a[team=Pink,tag=SWPlaying,scores={pinkblockcount=1..}] run sc
 
 execute if entity @a[tag=BossBar] run bossbar set 100 name [{"bold":true,"score":{"name":"test","objective":"Minutes1"}},{"color":"white","score":{"name":"test","objective":"Minutes2"}}," : ",{"score":{"name":"test","objective":"Seconds1"}},{"score":{"name":"test","objective":"Seconds2"}}," : ",{"score":{"name":"test","objective":"ms1"}},{"score":{"name":"test","objective":"ms2"}}]
 execute if entity @a[scores={SWKill=1..}] run schedule function game:skywars/swkill 1t replace
-execute if entity @a[scores={SWDeath=1..}] run function game:skywars/swdeath
+execute if entity @a[scores={SWDeath=1..},tag=Alive] run function game:skywars/swdeath
 execute if score #TimerUp TimerUp matches 1 run function game:timer/bossbar_up/1
+execute if score #TimerDown TimerDown matches 1 run function game:timer/bossbar_down/1
