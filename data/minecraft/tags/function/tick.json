@@ -1,6 +1,5 @@
 {
   "values": [
-    "game:tick", 
-    "game:skywars/alivecheck"
+    "game:tick"
   ]
 }
