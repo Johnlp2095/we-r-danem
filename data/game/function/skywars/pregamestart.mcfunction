@@ -1,6 +1,16 @@
 # run when the game is being prepped for starting, to teleport players to their islands and give them their starting items
 # needs the system for giving infinite blocks still
 
+clear @a
+gamemode adventure @a
+effect clear @a
+gamerule fall_damage true
+effect give @a minecraft:saturation 1 255 true
+effect give @a minecraft:regeneration 1 255 true
+tag @a add SWPlaying
+tag @a add Alive
+tag @a add SWPregame
+
 tp @a[team=Red] -540.5 -4.5 313 -135 0
 tp @a[team=Orange] -499.5 -4.5 354.5 -155 0
 tp @a[team=Yellow] -421.5 -4.5 354.5 155 0
@@ -9,13 +19,6 @@ tp @a[team=Aqua] -380.5 -4.5 235.5 45 0
 tp @a[team=Blue] -421.5 -4.5 194.5 45 0
 tp @a[team=Purple] -499.5 -4.5 194.5 -45 0
 tp @a[team=Pink] -540.5 -4.5 235.5 -45 0
-gamemode adventure @a
-effect clear @a minecraft:saturation
-gamerule fall_damage true
-effect give @a minecraft:regeneration 5 2 true
-tag @a add SWPlaying
-tag @a add Alive
-tag @a add SWPregame
 
 item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
