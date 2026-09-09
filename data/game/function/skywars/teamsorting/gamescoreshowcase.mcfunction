@@ -1,4 +1,4 @@
-tellraw @a {"bold":true,"color":"white","text":"Best performing teams this game:"}
+tellraw @a {"bold":true,"color":"white","text":"Team scores for this game:"}
     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"1st: "},{"bold":true,"selector":"@e[tag=tsw1]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw1,limit=1]","objective":"teamswpoints"}}]
         tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"2nd: "},{"bold":true,"selector":"@e[tag=tsw2]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw2,limit=1]","objective":"teamswpoints"}}]
             tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"3rd: "},{"bold":true,"selector":"@e[tag=tsw3]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw3,limit=1]","objective":"teamswpoints"}}]
@@ -7,3 +7,4 @@ tellraw @a {"bold":true,"color":"white","text":"Best performing teams this game:
                             tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"6th: "},{"bold":true,"selector":"@e[tag=tsw6]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw6,limit=1]","objective":"teamswpoints"}}]
                                 tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"7th: "},{"bold":true,"selector":"@e[tag=tsw7]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw7,limit=1]","objective":"teamswpoints"}}]
                                     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"8th: "},{"bold":true,"selector":"@e[tag=tsw8]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw8,limit=1]","objective":"teamswpoints"}}]
+                                        schedule function game:skywars/teamsorting/armorstandgore 5t

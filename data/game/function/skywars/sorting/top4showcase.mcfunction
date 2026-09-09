@@ -3,3 +3,4 @@ tellraw @a {"bold":true,"color":"white","text":"Best performing players this gam
         tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"2nd: "},{"bold":true,"selector":"@a[tag=sw2]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw2,limit=1]","objective":"swpoints"}}]
             tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"3rd: "},{"bold":true,"selector":"@a[tag=sw3]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw3,limit=1]","objective":"swpoints"}}]
                 tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"4th: "},{"bold":true,"selector":"@a[tag=sw4]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw4,limit=1]","objective":"swpoints"}}]
+                    schedule function game:skywars/sorting/tagreset 5t
