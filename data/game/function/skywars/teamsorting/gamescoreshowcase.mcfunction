@@ -7,4 +7,4 @@ tellraw @a {"bold":true,"color":"white","text":"Team scores for this game:"}
                             tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"6th: "},{"bold":true,"selector":"@e[tag=tsw6]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw6,limit=1]","objective":"teamswpoints"}}]
                                 tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"7th: "},{"bold":true,"selector":"@e[tag=tsw7]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw7,limit=1]","objective":"teamswpoints"}}]
                                     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"8th: "},{"bold":true,"selector":"@e[tag=tsw8]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw8,limit=1]","objective":"teamswpoints"}}]
-                                        schedule function game:skywars/teamsorting/armorstandgore 5t
+                                    

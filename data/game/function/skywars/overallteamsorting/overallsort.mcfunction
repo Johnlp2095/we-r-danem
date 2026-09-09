@@ -1,0 +1,1 @@
+# a new set of armor stands containing the team's overall score up until this point, adding the SW points to it and resorting them accordingly.
