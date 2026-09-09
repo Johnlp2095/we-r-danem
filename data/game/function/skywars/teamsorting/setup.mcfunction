@@ -6,4 +6,4 @@ scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,team=Aqu
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,team=Blue] swpoints = @a[tag=blue1] swpoints
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,team=Purple] swpoints = @a[tag=purple1] swpoints
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,team=Pink] swpoints = @a[tag=pink1] swpoints
-schedule function game:skywars/teamsorting/setup2 1t
+    schedule function game:skywars/teamsorting/setup2 1t
