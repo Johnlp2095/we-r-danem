@@ -1,0 +1,5 @@
+tellraw @a {"bold":true,"color":"white","text":"Best performing players this game:"}
+    tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":true,"color":"white","text":"1st:  "},{"bold":true,"selector":"@a[tag=sw1]"}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw1]","objective":"swpoints"}}]
+        tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":true,"color":"white","text":"2nd:  "},{"bold":true,"selector":"@a[tag=sw2]"}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw2]","objective":"swpoints"}}]
+            tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":true,"color":"white","text":"3rd:  "},{"bold":true,"selector":"@a[tag=sw3]"}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw3]","objective":"swpoints"}}]
+                tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":true,"color":"white","text":"4th:  "},{"bold":true,"selector":"@a[tag=sw4]"}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=sw4]","objective":"swpoints"}}]
