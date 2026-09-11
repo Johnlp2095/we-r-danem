@@ -57,3 +57,12 @@ scoreboard players set pregame Seconds1 3
 scoreboard players set pregame Seconds2 0
 function game:timer/bossbar_down/bbtimerdown
 bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds2"}}]
+
+scoreboard players set #redteam teamCount 0
+scoreboard players set #orangeteam teamCount 0
+scoreboard players set #yellowteam teamCount 0
+scoreboard players set #limeteam teamCount 0
+scoreboard players set #aquateam teamCount 0
+scoreboard players set #blueteam teamCount 0
+scoreboard players set #purpleteam teamCount 0
+scoreboard players set #pinkteam teamCount 0
