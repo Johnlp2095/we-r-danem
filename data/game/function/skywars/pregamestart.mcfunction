@@ -9,7 +9,6 @@ effect give @a minecraft:saturation 1 255 true
 effect give @a minecraft:regeneration 1 255 true
 tag @a add SWPlaying
 tag @a add Alive
-tag @a add SWPregame
 
 tp @a[team=Red] -540.5 -4.5 313 -135 0
 tp @a[team=Orange] -499.5 -4.5 354.5 -155 0

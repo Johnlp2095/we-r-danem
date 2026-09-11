@@ -2,5 +2,9 @@
 
 #scoreboard objective add round dummy Round
 
-scoreboard players add dummy round 1
-execute if score dummy round matches 4 run function game/skywars/endgame
+tp @a -459 23 274
+gamemode adventure @a
+clear @a
+effect give @a weakness infinite 255 true
+function game:skywars/resetmap
+schedule function game:skywars/pregamestart 15s
