@@ -8,8 +8,8 @@ execute if entity @a[team=Purple,tag=SWPlaying,scores={purpleblockcount=1..}] ru
 execute if entity @a[team=Pink,tag=SWPlaying,scores={pinkblockcount=1..}] run schedule function game:skywars/infiniteblocks 1t replace
 
 execute if entity @a[tag=BossBar] run bossbar set 100 name [{"bold":true,"score":{"name":"test","objective":"Minutes1"}},{"color":"white","score":{"name":"test","objective":"Minutes2"}}," : ",{"score":{"name":"test","objective":"Seconds1"}},{"score":{"name":"test","objective":"Seconds2"}}," : ",{"score":{"name":"test","objective":"ms1"}},{"score":{"name":"test","objective":"ms2"}}]
-execute if entity @a[scores={SWKill=1..}] run schedule function game:skywars/swkill 1t replace
-execute if entity @a[scores={SWDeath=1..},tag=Alive] run function game:skywars/swdeath
+execute if entity @a[scores={SWKill=1..},tag=SWPlaying] run schedule function game:skywars/swkill 1t replace
+execute if entity @a[scores={SWDeath=1..},tag=Alive,tag=SWPlaying] run function game:skywars/swdeath
 execute if entity @a[tag=SWPregame] run bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds2"}}]
 execute if entity @a[tag=StartIn] unless score dummy pregamecount matches 0 run function game:timer/startin
 execute if entity @a[tag=EndIn] unless score dummy pregamecount matches 0 run function game:timer/endin

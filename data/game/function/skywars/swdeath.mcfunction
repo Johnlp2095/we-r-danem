@@ -1,4 +1,4 @@
-tag @a[scores={SWDeath=1..}] add dead
+tag @a[scores={SWDeath=1..},tag=SWPlaying] add dead
     execute as @a[tag=dead] at @s run playsound minecraft:block.conduit.deactivate player @a[tag=dead] ~ ~ ~ 1 1
         title @a[tag=dead] actionbar {"text":"You died!","color":"red"}
             execute as @a[tag=dead] at @s run particle minecraft:poof ~ ~ ~ 0.3 0.3 0.3 0.5 30 normal
@@ -6,3 +6,4 @@ tag @a[scores={SWDeath=1..}] add dead
                     tag @a[tag=dead] remove Alive
                         gamemode spectator @a[tag=dead]
                     schedule function game:skywars/removedeathtag 1t replace
+                    schedule function game:skywars/endroundcheck 1t
