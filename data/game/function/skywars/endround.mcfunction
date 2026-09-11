@@ -8,3 +8,6 @@ clear @a
 effect give @a weakness infinite 255 true
 function game:skywars/resetmap
 schedule function game:skywars/pregamestart 15s
+
+worldborder center -461 274
+worldborder set 207 0
