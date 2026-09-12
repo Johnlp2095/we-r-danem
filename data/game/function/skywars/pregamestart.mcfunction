@@ -51,11 +51,8 @@ item replace entity @a[team=Blue] armor.feet with minecraft:leather_boots[dyed_c
 item replace entity @a[team=Purple] armor.feet with minecraft:leather_boots[dyed_color=8388736,unbreakable={}] 1
 item replace entity @a[team=Pink] armor.feet with minecraft:leather_boots[dyed_color=15961002,unbreakable={}] 1
 
-bossbar set 100 players
-scoreboard players set pregame Seconds1 3
-scoreboard players set pregame Seconds2 0
-function game:timer/bossbar_down/bbtimerdown
-bossbar set pregame name [{"color":"gray","text":"Game starting in: "},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds1"}},{"bold":true,"color":"aqua","score":{"name":"pregame","objective":"Seconds2"}}]
+function game:skywars/border
+schedule function game:skywars/start 56s
 
 scoreboard players set #redteam teamCount 0
 scoreboard players set #orangeteam teamCount 0
