@@ -23,6 +23,7 @@ item replace entity @a hotbar.0 with minecraft:stone_sword[unbreakable={}] 1
 item replace entity @a hotbar.1 with minecraft:diamond_pickaxe[unbreakable={}] 1
 item replace entity @a hotbar.2 with minecraft:bow[unbreakable={}] 1
 item replace entity @a hotbar.3 with minecraft:cooked_beef 8
+item replace entity @a hotbar.4 with minecraft:flint_and_steel[unbreakable={}] 1
 item replace entity @a armor.chest with minecraft:iron_chestplate[unbreakable={}] 1
 item replace entity @a hotbar.8 with minecraft:arrow 4
 
@@ -53,6 +54,7 @@ item replace entity @a[team=Pink] armor.feet with minecraft:leather_boots[dyed_c
 
 function game:skywars/border
 schedule function game:skywars/start 56s
+bossbar set minecraft:pregame visible true
 
 scoreboard players set #redteam teamCount 0
 scoreboard players set #orangeteam teamCount 0
