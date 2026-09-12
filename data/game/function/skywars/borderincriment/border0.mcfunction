@@ -1,0 +1,1 @@
+schedule function game:skywars/borderincriment/border0time 45s replace
