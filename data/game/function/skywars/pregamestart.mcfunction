@@ -64,3 +64,5 @@ scoreboard players set #aquateam teamCount 0
 scoreboard players set #blueteam teamCount 0
 scoreboard players set #purpleteam teamCount 0
 scoreboard players set #pinkteam teamCount 0
+
+bossbar set minecraft:pregame visible true
