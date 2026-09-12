@@ -11,5 +11,5 @@ scoreboard players set @a SWKill 0
 
 scoreboard players add dummy Round 1
 
-execute if score dummy Round matches 4 run function game/skywars/endgame
-execute unless score dummy Round matches 4 run schedule function game/skywars/endround 5s
+execute if score dummy Round matches 4 run function game:skywars/endgame
+execute unless score dummy Round matches 4 run schedule function game:skywars/endround 5s
