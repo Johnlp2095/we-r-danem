@@ -9,6 +9,9 @@ effect give @a minecraft:saturation 1 255 true
 effect give @a minecraft:regeneration 1 255 true
 tag @a add SWPlaying
 tag @a add Alive
+kill @a[type=item]
+
+bossbar set minecraft:pregame visible true
 
 tp @a[team=Red] -540.5 -4.5 313 -135 0
 tp @a[team=Orange] -499.5 -4.5 354.5 -155 0
@@ -64,5 +67,3 @@ scoreboard players set #aquateam teamCount 0
 scoreboard players set #blueteam teamCount 0
 scoreboard players set #purpleteam teamCount 0
 scoreboard players set #pinkteam teamCount 0
-
-bossbar set minecraft:pregame visible true
