@@ -5,7 +5,7 @@ title @a subtitle [{"bold":true,"selector":"@a[tag=Alive]"},{"bold":false,"color
 effect give @a minecraft:regeneration 10 255 true
 effect give @a minecraft:saturation 10 255 true
 execute as @a at @s run playsound block.respawn_anchor.deplete player @a ~ ~ ~ 1 1
-execute as @A at @s run playsound block.beacon.deactivate player @a ~ ~ ~ 1 1
+execute as @a at @s run playsound block.beacon.deactivate player @a ~ ~ ~ 1 1
 gamerule fall_damage false
 schedule clear game:skywars/borderincriment/border1
 schedule clear game:skywars/borderincriment/border2
