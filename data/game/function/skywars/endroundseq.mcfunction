@@ -9,7 +9,7 @@ gamerule fall_damage false
 tag @a remove dead
 scoreboard players set @a SWKill 0
 
-scoreboard players add dummy round 1
+scoreboard players add dummy Round 1
 
 execute if score dummy round matches 4 run function game/skywars/endgame
 execute if score dummy round matches ..4 run schedule function game/skywars/endround 5s
