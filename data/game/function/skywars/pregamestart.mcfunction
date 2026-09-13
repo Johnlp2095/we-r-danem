@@ -9,7 +9,7 @@ effect give @a minecraft:saturation 1 255 true
 effect give @a minecraft:regeneration 1 255 true
 tag @a add SWPlaying
 tag @a add Alive
-kill @a[type=item]
+kill @e[type=item]
 
 bossbar set minecraft:pregame visible true
 
