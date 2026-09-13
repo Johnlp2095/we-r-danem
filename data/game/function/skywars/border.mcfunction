@@ -6,9 +6,9 @@ tag @a remove ShrinkIn
 tag @a remove ShrinkFor
 tag @a remove EndIn
 tag @a add StartIn
-scoreboard players set dummy pregamecount 60
-bossbar set minecraft:pregame max 60
-schedule function game:skywars/borderincriment/border0 60s replace
-schedule function game:skywars/borderincriment/border1 120s replace
-schedule function game:skywars/borderincriment/border2 225s replace
-schedule function game:skywars/borderincriment/border3 315s replace
+scoreboard players set dummy pregamecount 30
+bossbar set minecraft:pregame max 30
+schedule function game:skywars/borderincriment/border0time 30s replace
+schedule function game:skywars/borderincriment/border1 90s replace
+schedule function game:skywars/borderincriment/border2 195s replace
+schedule function game:skywars/borderincriment/border3 285s replace
