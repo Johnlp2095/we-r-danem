@@ -10,6 +10,13 @@ gamerule fall_damage false
 schedule clear game:skywars/borderincriment/border1
 schedule clear game:skywars/borderincriment/border2
 schedule clear game:skywars/borderincriment/border3
+schedule clear game:skywars/endroundseq
+schedule clear game:skywars/borderincriment/border0
+schedule clear game:skywars/borderincriment/roundtimeover
+schedule clear game:skywars/borderincriment/border3time
+schedule clear game:skywars/borderincriment/border2time
+schedule clear game:skywars/borderincriment/border1time
+schedule clear game:skywars/borderincriment/border0time
 bossbar set minecraft:pregame visible false
 
 tag @a remove dead

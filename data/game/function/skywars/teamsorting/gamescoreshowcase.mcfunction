@@ -1,4 +1,4 @@
-execute as @a[tag=SWPlaying] at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 5
+execute as @a[tag=SWPlaying] at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1.5
 tellraw @a {"bold":true,"color":"white","text":"Team scores for this game:"}
     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"1st: "},{"bold":true,"selector":"@e[tag=tsw1]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw1,limit=1]","objective":"teamswpoints"}}]
         tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"2nd: "},{"bold":true,"selector":"@e[tag=tsw2]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=tsw2,limit=1]","objective":"teamswpoints"}}]
