@@ -6,5 +6,5 @@ schedule clear game:skywars/borderincriment/border1
 schedule clear game:skywars/borderincriment/border2
 schedule clear game:skywars/borderincriment/border3
 
-function game:skywars/sorting/indivsort
-function game:skywars/sorting/teamsort
+schedule function game:skywars/sorting/indivsort 5s
+schedule function game:skywars/teamsorting/teamsort 15s
