@@ -6,4 +6,5 @@ summon armor_stand -460 23 274 {Team:"Aqua",Invulnerable:1b,Invisible:1b,Tags:["
 summon armor_stand -460 23 274 {Team:"Blue",Invulnerable:1b,Invisible:1b,Tags:["unsorted"],CustomName:{"bold":true,"color":"blue","text":"Blue Team"}}
 summon armor_stand -460 23 274 {Team:"Purple",Invulnerable:1b,Invisible:1b,Tags:["unsorted"],CustomName:{"bold":true,"color":"dark_purple","text":"Purple Team"}}
 summon armor_stand -460 23 274 {Team:"Pink",Invulnerable:1b,Invisible:1b,Tags:["unsorted"],CustomName:{"bold":true,"color":"light_purple","text":"Pink Team"}}
+tellraw @a [{"bold":true,"color":"dark_red","text":"[!] "},{"bold":false,"color":"dark_gray","italic":true,"text":"Calculating team scores..."}]
 schedule function game:skywars/teamsorting/setup 3s
