@@ -1,4 +1,4 @@
-execute as @a[tag=SWPlaying] at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 2
+execute as @a at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 2
 tellraw @a {"bold":true,"color":"white","text":"Overall team scores:"}
     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"1st: "},{"bold":true,"selector":"@e[tag=overallscore1]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=overallscore1,limit=1]","objective":"overallteampoints"}}]
         tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"2nd: "},{"bold":true,"selector":"@e[tag=overallscore2]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=overallscore2,limit=1]","objective":"overallteampoints"}}]
@@ -8,3 +8,4 @@ tellraw @a {"bold":true,"color":"white","text":"Overall team scores:"}
                             tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"6th: "},{"bold":true,"selector":"@e[tag=overallscore6]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=overallscore6,limit=1]","objective":"overallteampoints"}}]
                                 tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"7th: "},{"bold":true,"selector":"@e[tag=overallscore7]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=overallscore7,limit=1]","objective":"overallteampoints"}}]
                                     tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"8th: "},{"bold":true,"selector":"@e[tag=overallscore8]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@e[tag=overallscore8,limit=1]","objective":"overallteampoints"}}]
+                                        schedule function game:skywars/overallteamsorting/tagreset 5t
