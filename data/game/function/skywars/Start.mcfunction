@@ -1,6 +1,8 @@
 function game:start/aaabbc
 schedule function game:skywars/glass 80t
 
+execute run summon armor_stand 0 0 0 {Tags:["timer"]}
+
 execute as @a[team=Red] run scoreboard players add #redteam teamCount 1
 execute as @a[team=Orange] run scoreboard players add #orangeteam teamCount 1
 execute as @a[team=Yellow] run scoreboard players add #yellowteam teamCount 1
