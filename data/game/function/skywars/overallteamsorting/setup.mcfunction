@@ -6,3 +6,4 @@ scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,tag=over
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,tag=overall,team=Blue] overallteampoints = @e[type=minecraft:armor_stand,tag=skywars,team=Blue] teamswpoints
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,tag=overall,team=Purple] overallteampoints = @e[type=minecraft:armor_stand,tag=skywars,team=Purple] teamswpoints
 scoreboard players operation @e[type=minecraft:armor_stand,tag=unsorted,tag=overall,team=Pink] overallteampoints = @e[type=minecraft:armor_stand,tag=skywars,team=Pink] teamswpoints
+schedule function game:skywars/overallteamsorting/1 1t
