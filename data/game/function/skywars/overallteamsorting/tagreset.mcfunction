@@ -8,3 +8,4 @@ tag @e[type=minecraft:armor_stand,tag=overall] remove overallscore5
 tag @e[type=minecraft:armor_stand,tag=overall] remove overallscore6
 tag @e[type=minecraft:armor_stand,tag=overall] remove overallscore7
 tag @e[type=minecraft:armor_stand,tag=overall] remove overallscore8
+schedule function game:skywars/teamsorting/armorstandgore 1t
