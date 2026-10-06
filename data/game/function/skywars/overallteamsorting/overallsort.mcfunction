@@ -9,3 +9,4 @@ summon armor_stand 770 99 -127 {Team:"Blue",Invulnerable:1b,Invisible:1b,Tags:["
 summon armor_stand 770 99 -127 {Team:"Purple",Invulnerable:1b,Invisible:1b,Tags:["unsorted","overall"],CustomName:{"bold":true,"color":"dark_purple","text":"Purple Team"}}
 summon armor_stand 770 99 -127 {Team:"Pink",Invulnerable:1b,Invisible:1b,Tags:["unsorted","overall"],CustomName:{"bold":true,"color":"light_purple","text":"Pink Team"}}
 tellraw @a [{"bold":true,"color":"dark_red","text":"[!] "},{"bold":false,"color":"dark_gray","italic":true,"text":"Calculating total team scores..."}]
+schedule function game:skywars/overallteamsorting/setup 3s
