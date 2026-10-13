@@ -12,8 +12,9 @@ gamerule fall_damage false
 
 tag @a remove dead
 scoreboard players set @a SWKill 0
+scoreboard players set @a SWDeath 0
 
 scoreboard players add #pillars round 1
 
 execute if score #pillars round matches 4.. run function game:pillars/endgame
-execute unless score #pillars round matches 4 run schedule function game:pillars/endround 5s
+execute unless score #pillars round matches 4.. run schedule function game:pillars/endround 5s

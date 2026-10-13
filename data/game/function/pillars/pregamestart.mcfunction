@@ -33,6 +33,17 @@ execute if score #pillars round matches 3 run tp @a[tag=purple2] 704.5 312 907.5
 execute if score #pillars round matches 3 run tp @a[tag=pink1] 728.5 312 931.5 144 0
 execute if score #pillars round matches 3 run tp @a[tag=pink2] 732.5 312 927.5 122 0
 
+execute if score #pillars round matches 1 run spawnpoint @a 1180 261 472
+execute if score #pillars round matches 2 run spawnpoint @a 759 265 491
+execute if score #pillars round matches 3 run spawnpoint @a 718 265 917
+
+execute if score #pillars round matches 1 run worldborder center 1180 472
+execute if score #pillars round matches 1 run worldborder set 50 0
+execute if score #pillars round matches 2 run worldborder center 759 491
+execute if score #pillars round matches 2 run worldborder set 50 0
+execute if score #pillars round matches 3 run worldborder center 718 917
+execute if score #pillars round matches 3 run worldborder set 50 0
+
 
 effect clear @a minecraft:saturation
 effect give @a minecraft:saturation 5 99 true
