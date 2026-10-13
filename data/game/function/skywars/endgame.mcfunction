@@ -15,3 +15,6 @@ schedule clear game:skywars/borderincriment/border0time
 
 schedule function game:skywars/sorting/indivsort 5s
 schedule function game:skywars/teamsorting/teamsort 15s
+
+tag @a remove SWPlaying
+tag @a remove Alive

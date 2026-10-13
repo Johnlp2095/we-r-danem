@@ -19,3 +19,6 @@ execute if entity @e[type=armor_stand,tag=ShrinkFor] unless score dummy pregamec
 
 execute if score #TimerUp TimerUp matches 1 run function game:timer/bossbar_up/1
 execute if score #TimerDown TimerDown matches 1 run function game:timer/bossbar_down/1
+
+execute if entity @a[tag=PillarsPlaying,scores={SWKill=1..}] run schedule function game:pillars/kill 1t
+execute if entity @a[tag=PillarsPlaying,scores={SWDeath=1..}] run function game:pillars/death
