@@ -1,0 +1,2 @@
+tellraw @a [{"bold":true,"color":"dark_red","text":"[!] "},{"bold":false,"color":"dark_gray","italic":true,"text":"Calculating total team scores..."}]
+schedule function game:pillars/overallteamsorting/setup 3s
