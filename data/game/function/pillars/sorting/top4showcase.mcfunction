@@ -1,0 +1,7 @@
+execute as @a[tag=PillarsPlaying] at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1
+tellraw @a {"bold":true,"color":"white","text":"Best performing players this game:"}
+    tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"1st: "},{"bold":true,"selector":"@a[tag=pillars1]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=pillars1,limit=1]","objective":"pillarspoints"}}]
+        tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"2nd: "},{"bold":true,"selector":"@a[tag=pillars2]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=pillars2,limit=1]","objective":"pillarspoints"}}]
+            tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"3rd: "},{"bold":true,"selector":"@a[tag=pillars3]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=pillars3,limit=1]","objective":"pillarspoints"}}]
+                tellraw @a [{"bold":true,"color":"white","text":"[⏵] "},{"bold":false,"color":"white","text":"4th: "},{"bold":true,"selector":"@a[tag=pillars4]","separator":", "}," ",{"bold":false,"color":"white","score":{"name":"@a[tag=pillars4,limit=1]","objective":"pillarspoints"}}]
+                    schedule function game:pillars/sorting/tagreset 5t
